@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require './deliver_dsl'
+
+script = ARGV[0]
+DeliverDSL::Executor.execute_script(script, ARGV[1..ARGV.length])
