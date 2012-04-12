@@ -1,4 +1,4 @@
-[deliver tool]
+deliver tool
 ===
 
 Run commands or upload a file for each server in a list.
