@@ -1,6 +1,6 @@
-module DeliverDSL
+module Deliver
   class Executor
-    include DeliverDSL::Base
+    include Deliver::Base
     
     # class methods
     class << self

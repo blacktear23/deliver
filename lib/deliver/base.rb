@@ -1,7 +1,7 @@
 require 'net/ssh'
 require 'net/scp'
 
-module DeliverDSL
+module Deliver
   module Base
     
     def self.included(base)

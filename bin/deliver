@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'deliver'
+
+script = ARGV[0]
+Deliver::Executor.execute_script(script, ARGV[1..ARGV.length])

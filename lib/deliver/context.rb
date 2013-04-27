@@ -1,4 +1,4 @@
-module DeliverDSL
+module Deliver
   class Context
     attr_accessor :context
     attr_accessor :args
